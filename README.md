@@ -1,1 +1,1 @@
-"# solid-js-fp-ts" 
+# solid-js-fp-ts
