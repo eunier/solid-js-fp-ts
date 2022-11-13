@@ -1,7 +1,7 @@
 import * as Types from 'Helper.type';
 import { JSX } from 'solid-js';
 
-const getEvent = <T, E extends Event>(
+export const getEvent = <T, E extends Event>(
   event: Parameters<JSX.EventHandler<T, E>>[0]
 ): Types.HelperEvent => {
   switch (event.type) {
